@@ -1,0 +1,108 @@
+@import '~antd/dist/antd.css';
+
+
+body {
+  background-color: #3f454d;
+}
+
+.ant-layout {
+  background: #3f454d;
+}
+
+.container {
+  max-width: 980px;
+  padding: 40px;
+  background: #3f454d;
+  color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ant-form-item {
+  margin-bottom: 50px;
+}
+
+.ant-input {
+  border-radius: 0;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background: none;
+  border-color: #ff4800;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #ff4800;
+  border-color: #ff4800;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  border-radius: 0;
+}
+.ant-btn-primary:hover{
+  background-color: #ff480096;
+  border-color: #ff4800;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  background-color: #ff480096;
+  border-color: #ff4800;
+}
+
+.map > div{
+  height: 0;
+  transition: height 1s ease;
+}
+
+.map.deactive >div {
+  height: 0;
+}
+.map.active>div  {
+  height: 300px;
+}
+
+.autocomplete {
+  display: block;
+}
+
+/* .ant-form-explain {
+  margin-bottom: -1px;
+  position: relative;
+  top: -80px;
+} */
+
+.procces > .ant-col > label::after {
+  content: '';
+}
+
+.ant-radio-group {
+  width: 100%;
+}
+
+.ant-radio-wrapper {
+height: 180px !important;
+}
+
+
+.ant-card-body img {
+  height: 80px;
+}
+
+.ant-card-hoverable:hover {
+  border-color: rgba(175, 105, 105, 0.644);
+  border-width: 1px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.buttonsFooter{
+  display: block;
+  margin-top: 30px;
+}
+
+.mainContent .container {
+  padding: 30px auto;
+}
+
+.formsContainer {
+  margin: 60px auto;
+}
