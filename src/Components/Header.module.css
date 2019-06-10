@@ -1,4 +1,4 @@
-.header{
+.header {
     color: #fff;
     background-color: #3f454d !important;
     height: 36px !important;
@@ -38,6 +38,6 @@
     cursor: pointer;
 }
 
-.headerMenuAnchor{
+.headerMenuAnchor {
     color: #ff4800 !important;
 }
